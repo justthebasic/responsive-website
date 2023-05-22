@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar/>
       <Hero/>
       <Offers/>
@@ -17,7 +17,7 @@ function App() {
       <Rooms/>
       <ImageSlide/>
       <Footer/>
-    </div>
+    </>
   )
 }
 
